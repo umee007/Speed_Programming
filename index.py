@@ -42,8 +42,7 @@ def T_Drive():
 
 @app.route('/')
 def login():
-    v=Increase_views()
-    return render_template('login.html',Views=v)
+    return render_template('login.html')
 
 @app.route('/main_page',methods=['POST','GET'])
 def main_page():

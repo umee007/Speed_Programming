@@ -67,17 +67,4 @@ def Prepare_rank_list(data_dict):
                 data.append([c,i[0],i[1]])
     return data
 
-def Increase_views():
-    value=0
-    try:
-        f=open('Views_Database.dat','rb')
-        value=pickle.load(f)
-        f.close()
-    except:
-        pass
 
-    value+=1
-    f=open('Views_Database.dat','wb')
-    pickle.dump(obj=value,file=f)
-    f.close()
-    return value

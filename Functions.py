@@ -39,7 +39,7 @@ def Load_Question_Database():
 
     data=[]
     for file in os.listdir('Questions'):
-        f=open('Questions'+'\\'+file+'\\statement.txt','r')
+        f=open('Questions'+'/'+file+'/statement.txt','r')
         statement=f.read()
         f.close()
         d={'id':int(file),'explanation':statement}

@@ -4,6 +4,16 @@
             "src":"index.py",
             "use":"@vercel/python"
         }
-        
+    ],
+    
+     "rewrites": [
+          {
+            "source": "/static/:path*",
+            "destination": "/static/:path*"
+          },
+          {
+            "source": ":path*",
+            "destination": ":path*"
+          }
     ]
 }

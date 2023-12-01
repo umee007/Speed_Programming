@@ -1,0 +1,17 @@
+Chek for Palindrone String.
+
+Input
+First line t=No of test cases
+Next t lines each with an input
+
+Output
+Print Yes or No.
+
+Examples
+
+2
+abcba
+werrew
+
+>>> Yes
+>>> Yes

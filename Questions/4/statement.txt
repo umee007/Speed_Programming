@@ -1,0 +1,13 @@
+Check for perfect square
+
+Input
+Any number
+
+Output
+Yes or No
+
+Examples
+
+78
+
+>>> No
